@@ -1,0 +1,164 @@
+// Dissemination Performance
+
+// GET /performance/registrations
+{
+  "channels": [
+    {
+      "channel": "university",
+      "count": 120,
+      "learners": [
+        {
+          "id": "saswddw12-12",
+          "respondant_name": "string"
+        }
+      ]
+    }
+  ]
+}
+
+// GET /performance/capabilities
+{
+  "channels": [
+    {
+      "channel": "",
+      "traffic": 123,
+    }
+  ]
+}
+
+// GET /performance/growth
+{
+  "registrations": [
+    {
+      "date": "epoch_seconds",
+      "registrations": "epoch_seconds"
+    },
+  ],
+  "channels": [
+
+  ]
+}
+
+// ----------------------------
+
+// Interest and strategy insights
+
+// GET /interests/areas
+{
+  "areas": [
+    {
+      "type": "GenAI",
+      "demand": 1200,
+    },
+    {
+      "type": "Data Ethics",
+      "demand": 1200,
+    },
+  ]
+}
+
+// GET /interests/motviations
+{
+  "motivations": [
+    {
+      "type": "productivity",
+      "count": 120,
+      "learners": [
+        {
+          "id": "saswddw12-12",
+          "respondant_name": "string"
+        }
+      ]
+    }
+  ]
+}
+
+// GET /interests/challenges
+{
+  "challenges": [
+    {
+      "type": "connectiviyt",
+      "count": 120,
+      "learners": [
+        {
+          "id": "saswddw12-12",
+          "respondant_name": "string"
+        }
+      ]
+    }
+  ]
+}
+
+
+// ----------------------------
+
+// Geographic insights
+
+// GET /geographic/regional with query param ascending or descneding
+{
+  "regions": [
+    {
+      "name": "Beirut",
+      "count": 1200,
+      "learners": [
+        {
+          "id": "saswddw12-12",
+          "respondant_name": "string"
+        }
+      ]
+    },
+  ]
+}
+
+// GET /geographic/channels
+{
+  "regions": [
+    {
+      "region": "Beirut",
+      "partner": "University",
+      "count": 1200,
+    },
+  ]
+}
+
+// ----------------------------
+
+// The unified laerner profile
+
+// GET /profiles/admins
+{
+  "profiles": [
+    {
+      "name": "Learner name",
+      "email": 1200,
+      "phone": "+961 12021020"
+    },
+  ]
+}
+
+// GET /profiles/demographics
+{
+  "profiles": [
+    {
+      "id": "67",
+      "age": 18,
+      "range": 18-20,
+      "employement_status": "employed",
+      "job": "software engineer",
+      "level": "12",
+      "industry": "Engineering",
+    },
+  ]
+}
+
+
+// GET /profiles/programs
+{
+  "profiles": [
+    {
+      "trainin_track": "channel",
+      "channel": "channel",
+      "skill_level": "expert",
+    },
+  ]
+}
